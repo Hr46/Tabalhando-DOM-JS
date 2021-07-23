@@ -1,0 +1,15 @@
+Na aula aprendemos como usar o console do inpecionar elemento do google, caso queira achar uma parte de um documento no html basta colocar um document.querySelector('dentro daqui colocar a tag ou class que vc deseja encontrar'), essa função ajudara a achar oq deseja mais facil e fazer alterações no google para ver como que vai ficar antes de colocar no código, essa função tambem serve para o uso do css substituindo o nome do código pelo da class ou id, 
+
+tambem temos um código chamado document.querySelector('') textContent, onde ele ira mostra o conteudo que está dentro do da tag ou class que você marcou no inicio e sim ficando mais facil de identificar o conteudo 
+
+Outro comando é o  document.querySelector('') textContent = " E O QUE VOCÊ QUER SUBISTITUIR NAQUELE DETERMINADO LUGAR"
+
+
+Todos os elementos na nossa árvore do DOM são nós e todos os nós podem ser acessados via JavaScript. Os nós podem ser deletados, criados ou modificados. Durante o curso utilizamos o método appendChild que sempre é adicionado no final do nó, para colocar um nó filho dentro do nó pai
+
+Existem outros métodos que podemos utilizar para manipular nós:
+
+insertBefore(pai, filho): Coloca um nó antes do outro.
+replaceChild( elemento1, elemento2): Substitui o nó elemento 1 pelo nó elemento2.
+removeChild(elemento): Remove um nó da árvore.
+
